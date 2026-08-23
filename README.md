@@ -7,7 +7,7 @@
 - [ ] 🎨 Color Detection ✅
 - [ ] 🔍 Edge Detection ✅
 - [ ] 🌀 Contour Detection
-- [ ] 🖐️ Hand Detection
+- [ ] 🖐️ Hand Detection ✅
 - [ ] 🧍 Pose Detection
 - [ ] 🎯 Object Detection
 - [ ] 🤟 Sign Language Recognition
