@@ -5,7 +5,7 @@
 - [ ] 👤 Face Detection ✅
 - [ ] 👁️ Eye Detection ✅
 - [ ] 🎨 Color Detection ✅
-- [ ] 🔍 Edge Detection
+- [ ] 🔍 Edge Detection ✅
 - [ ] 🌀 Contour Detection
 - [ ] 🖐️ Hand Detection
 - [ ] 🧍 Pose Detection
