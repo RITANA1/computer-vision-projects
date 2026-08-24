@@ -1,9 +1,67 @@
 from ultralytics import YOLO
 import cv2
+import os
 
 
 # ==========================================
-# 1. Load YOLO Model
+# 1. Exact image path
+# ==========================================
+
+image_path = r"C:\Users\iafri\Downloads\VisionLab\projects\08_object_detection\images\twopeople_karting.png"
+
+output_path = r"C:\Users\iafri\Downloads\VisionLab\projects\08_object_detection\outputs\twopeople_karting_yolo.png"
+
+
+# ==========================================
+# 2. Verify the image exists
+# ==========================================
+
+print("\n========================================")
+print("YOLO PROJECT 08")
+print("========================================")
+
+print(f"📷 Image path:")
+print(image_path)
+
+if not os.path.exists(image_path):
+
+    print("❌ ERROR: Image does NOT exist!")
+
+    exit()
+
+else:
+
+    print("✅ Image exists!")
+
+
+# ==========================================
+# 3. Load the image ourselves
+# ==========================================
+
+image = cv2.imread(image_path)
+
+if image is None:
+
+    print("❌ OpenCV could not load the image!")
+
+    exit()
+
+else:
+
+    print("✅ Image loaded successfully!")
+
+
+# ==========================================
+# 4. Show image dimensions
+# ==========================================
+
+height, width = image.shape[:2]
+
+print(f"📐 Image size: {width} x {height}")
+
+
+# ==========================================
+# 5. Load YOLO
 # ==========================================
 
 model = YOLO("yolo26n.pt")
@@ -12,21 +70,7 @@ print("✅ YOLO model loaded successfully!")
 
 
 # ==========================================
-# 2. Image Path
-# ==========================================
-
-image_path = r"C:\Users\iafri\Downloads\VisionLab\projects\08_object_detection\images\twopeople_karting.png"
-
-
-# ==========================================
-# 3. Output Path
-# ==========================================
-
-output_path = r"C:\Users\iafri\Downloads\VisionLab\projects\08_object_detection\outputs\yolo_karting_detection.png"
-
-
-# ==========================================
-# 4. Run YOLO Object Detection
+# 6. Run detection
 # ==========================================
 
 results = model(
@@ -38,7 +82,7 @@ print("✅ Detection completed!")
 
 
 # ==========================================
-# 5. Analyze Detected Objects
+# 7. Analyze detections
 # ==========================================
 
 object_count = 0
@@ -49,16 +93,12 @@ for result in results:
 
     for box in result.boxes:
 
-        # Class ID
         class_id = int(box.cls[0])
 
-        # Class name
         class_name = model.names[class_id]
 
-        # Confidence
         confidence = float(box.conf[0])
 
-        # Bounding box coordinates
         x1, y1, x2, y2 = map(
             int,
             box.xyxy[0]
@@ -75,14 +115,14 @@ for result in results:
 
 
 # ==========================================
-# 6. Create Annotated Image
+# 8. Create annotated image
 # ==========================================
 
 result_image = results[0].plot()
 
 
 # ==========================================
-# 7. Save Result
+# 9. Save result
 # ==========================================
 
 cv2.imwrite(
@@ -90,27 +130,20 @@ cv2.imwrite(
     result_image
 )
 
-
-# ==========================================
-# 8. Print Summary
-# ==========================================
-
-print()
-print("========================================")
+print("\n========================================")
 print(f"🎯 Total objects detected: {object_count}")
 print("========================================")
 
 print("💾 Result saved to:")
+
 print(output_path)
 
 
 # ==========================================
-# 9. Resize for Display
+# 10. Display result
 # ==========================================
 
 display_width = 900
-
-height, width = result_image.shape[:2]
 
 scale = display_width / width
 
@@ -121,20 +154,13 @@ display_image = cv2.resize(
     (display_width, display_height)
 )
 
-
-# ==========================================
-# 10. Display Result
-# ==========================================
-
-window_name = "YOLO Object Detection - Karting"
-
 cv2.namedWindow(
-    window_name,
+    "YOLO - Project 08",
     cv2.WINDOW_NORMAL
 )
 
 cv2.imshow(
-    window_name,
+    "YOLO - Project 08",
     display_image
 )
 
