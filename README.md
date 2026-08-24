@@ -9,7 +9,7 @@
 - [ ] 🌀 Contour Detection ✅
 - [ ] 🖐️ Hand Detection ✅
 - [ ] 🧍 Pose Detection ✅
-- [ ] 🎯 Object Detection
+- [ ] 🎯 Object Detection ✅
 - [ ] 🤟 Sign Language Recognition
 - [ ] 😊 Emotion Recognition
 - [ ] 🔤 OCR
