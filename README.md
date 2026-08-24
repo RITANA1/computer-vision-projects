@@ -8,7 +8,7 @@
 - [ ] 🔍 Edge Detection ✅
 - [ ] 🌀 Contour Detection
 - [ ] 🖐️ Hand Detection ✅
-- [ ] 🧍 Pose Detection
+- [ ] 🧍 Pose Detection ✅
 - [ ] 🎯 Object Detection
 - [ ] 🤟 Sign Language Recognition
 - [ ] 😊 Emotion Recognition
