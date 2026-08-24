@@ -6,7 +6,7 @@
 - [ ] 👁️ Eye Detection ✅
 - [ ] 🎨 Color Detection ✅
 - [ ] 🔍 Edge Detection ✅
-- [ ] 🌀 Contour Detection
+- [ ] 🌀 Contour Detection ✅
 - [ ] 🖐️ Hand Detection ✅
 - [ ] 🧍 Pose Detection ✅
 - [ ] 🎯 Object Detection
