@@ -10,13 +10,13 @@
 - [ ] 🖐️ Hand Detection ✅
 - [ ] 🧍 Pose Detection ✅
 - [ ] 🎯 Object Detection ✅
-- [ ] 🤟 Sign Language Recognition
+- [ ] 🤟 Sign Language Recognition ✅
 - [ ] 😊 Emotion Recognition
 - [ ] 🔤 OCR
-- [ ] 🧩 Image Segmentation
-- [ ] 🎥 Object Tracking
-- [ ] 🏭 Defect Detection
-- [ ] 🖼️ Image Classification
+-  🧩 Image Segmentation
+-  🎥 Object Tracking
+-  🏭 Defect Detection
+-  🖼️ Image Classification
 
 
 
