@@ -12,7 +12,7 @@
       🎯 Object Detection ✅
       🤟 Sign Language Recognition ✅
       😊 Emotion Recognition  ✅
-      🔤 OCR
+      🔤 OCR ✅
 -  🧩 Image Segmentation
 -  🎥 Object Tracking
 -  🏭 Defect Detection
