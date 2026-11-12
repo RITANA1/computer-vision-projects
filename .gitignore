@@ -13,3 +13,5 @@ projects/ocr/tessdata/*.traineddata
 # Generated OCR output
 projects/ocr/output/*
 !projects/ocr/output/.gitkeep
+
+yolo26n-seg.pt
