@@ -14,7 +14,7 @@
       😊 Emotion Recognition  ✅
       🔤 OCR ✅
       🧩 Image Segmentation  ✅
--  🎥 Object Tracking
+      🎥 Object Tracking ✅
 -  🏭 Defect Detection
 -  🖼️ Image Classification
 
