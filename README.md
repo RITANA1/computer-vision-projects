@@ -1,6 +1,6 @@
 # 👁️ Computer Vision Projects
 
-🌸 My journey through Computer Vision — 15 🌸
+🌸 My journey through Computer Vision  🌸
       
       👤 Face Detection ✅
       👁️ Eye Detection ✅
@@ -15,8 +15,8 @@
       🔤 OCR ✅
       🧩 Image Segmentation  ✅
       🎥 Object Tracking ✅
--  🏭 Defect Detection
--  🖼️ Image Classification
+      🏭 Defect Detection
+      🖼️ Image Classification
 
 
 
