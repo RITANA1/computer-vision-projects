@@ -15,3 +15,16 @@ projects/ocr/output/*
 !projects/ocr/output/.gitkeep
 
 yolo26n-seg.pt
+
+# Object Tracking video
+projects/object_tracking/videos/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Object Tracking video
+projects/object_tracking/videos/
+projects/object_tracking/src/output/
+__pycache__/
+*.pyc
