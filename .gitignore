@@ -28,3 +28,6 @@ projects/object_tracking/videos/
 projects/object_tracking/src/output/
 __pycache__/
 *.pyc
+
+# Image classification dataset
+projects/image_classification/data/raw/cifar-10-batches-py/
