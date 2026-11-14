@@ -1,0 +1,13 @@
+path: C:/Users/iafri/Downloads/VisionLab/projects/defect_detection
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 6
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled_in_scale
+  5: scratches
