@@ -16,7 +16,7 @@
       🧩 Image Segmentation  ✅
       🎥 Object Tracking ✅
       🏭 Defect Detection ✅
-      🖼️ Image Classification
+      🖼️ Image Classification ✅
 
 
 
