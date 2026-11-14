@@ -15,7 +15,7 @@
       🔤 OCR ✅
       🧩 Image Segmentation  ✅
       🎥 Object Tracking ✅
-      🏭 Defect Detection
+      🏭 Defect Detection ✅
       🖼️ Image Classification
 
 
